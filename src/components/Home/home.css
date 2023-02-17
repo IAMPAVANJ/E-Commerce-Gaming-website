@@ -1,0 +1,22 @@
+#home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home-container img{
+    width: 50%;
+    height: 500px;
+}
+#homebtn{
+    font-size: large;
+    border: none;
+    background-color: rgb(159, 198, 231);
+    border-radius: 5px;
+    text-align: right;
+}
+#homebtn:hover{
+    transform: scale(1.3,1.5);
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.NavBarLinks{
+    display: flex;
+    padding-right: 20px;
+    background-color: rgb(39, 37, 35);
+    width: 100%;
+    height:60px;
+    justify-content:flex-start ;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+}
+.NavBarLinks #homebtn{
+    font-size: large;
+    border: none;
+    background-color: rgb(159, 198, 231);
+    border-radius: 5px;
+    text-align: right;
+}
+
+.NavBarLinks h1{
+   color: rgb(219, 245, 157);
+   
+}
+.NavBarLinks h1:hover{
+    transform: scale(1.1,1.1);
+    text-shadow: 2px 2px 4px #afa3a3;
+}
+.NavBarLinks h2{
+    color: rgb(112, 172, 152);
+    padding-left:18px ;
+    
+}
+.NavBarLinks h2:hover{
+    transform: scale(1.3,1.5);
+    text-shadow: 2px 2px 4px #afa3a3;
+}
+.NavBar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
